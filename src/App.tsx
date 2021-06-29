@@ -37,6 +37,11 @@ const App = () => {
         picking the most promising affiliates based on the responses. Hence, I
         highly encourage you to give me as much information as you can.
       </BodyText>
+      <BodyText>
+        If you have any questions, contact me{' '}
+        <Link link="https://t.me/borodutch">on Telegram</Link> or{' '}
+        <Link link="mailto:affiliates@borodutch.com">by email</Link>.
+      </BodyText>
       <BodyText>Cheers!</BodyText>
       <Button
         onClick={() => {
