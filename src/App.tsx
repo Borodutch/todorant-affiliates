@@ -42,6 +42,11 @@ const App = () => {
         <Link link="https://t.me/borodutch">on Telegram</Link> or{' '}
         <Link link="mailto:affiliates@borodutch.com">by email</Link>.
       </BodyText>
+      <BodyText>
+        P.S., I plan to provide select affiliates with small money grants to
+        experiment. So if you are a "Search Engine Marketing ninja", make sure
+        to note the need for a grant in the form.
+      </BodyText>
       <BodyText>Cheers!</BodyText>
       <Button
         onClick={() => {
