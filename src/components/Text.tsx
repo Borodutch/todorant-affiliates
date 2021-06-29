@@ -28,7 +28,16 @@ export const SubheaderText: FC = ({ children }) => {
   return <p className={subheaderText}>{children}</p>
 }
 
-const bodyText = classnames(grayText, 'text-center')
+const bodyText = classnames(grayText, 'my-4')
 export const BodyText: FC = ({ children }) => {
   return <p className={bodyText}>{children}</p>
+}
+
+const linkStyle = classnames(whiteText)
+export const Link: FC<{ link: string }> = ({ children, link }) => {
+  return (
+    <a className={linkStyle} href={link} target="_blank" rel="noreferrer">
+      {children}
+    </a>
+  )
 }
